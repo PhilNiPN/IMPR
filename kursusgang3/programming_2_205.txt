@@ -1,0 +1,10 @@
+opgave: 
+Write assignment statements for the following:
+ - a. Assign a value of 0 to between if n is less than −k or greater than +k; otherwise, assign 1.
+ - b. Assign a value of 1 to divisor if digit is a divisor of num; otherwise, assign a value of 0.
+ - c. Assign a value of 1 to lowercase if ch is a lowercase letter; otherwise, assign a value of 0.
+
+ løsning: 
+  - a. `between` = ((-k <= n) && (n <= k))
+  - b. `divisor` = (num % divisor) == 0
+  - c. `lowercase` = ((ch >= 'a') && (ch <= 'z'))
