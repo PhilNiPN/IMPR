@@ -1,0 +1,4 @@
+project (funk C)
+
+add_executable (sum ${CMAKE_CURRENT_DIR}/src/main.c ${CMAKE_CURRENT_DIR}/src/sum.c
+add_executable (sum ${CMAKE_CURRENT_DIR}/src/main.c ${CMAKE_CURRENT_DIR}/src/sum.c)

@@ -5,7 +5,7 @@ int check_goldbach(int n) {
   /* Skriv kode for at checke Goldbach conjecture for i */
 
   if (n % 2 != 0 || n < 6) {
-    return 0;
+    return 1;
   }
 
   for (int i = 1, j = n - 1; i < j; i++, j--) {
