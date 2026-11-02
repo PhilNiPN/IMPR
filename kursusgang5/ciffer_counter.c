@@ -22,7 +22,7 @@ int main(int argc, char **argv){
     int n = atoi(argv[1]);
     int c = atoi(argv[2]);
     */
-    printf("intast et n og et c med denne struktur x y: \n");
+    printf("indtast et n og et c med denne struktur x y: \n");
     scanf("%d %d", &n, &c);
 
     if (c < 0 || c > 9 || n < 1){
